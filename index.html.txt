@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Doble Sentido en Relaciones Tempranas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fdfdfd;
+            color: #333;
+        }
+        h1 {
+            color: #005f73;
+            text-align: center;
+        }
+        .highlight {
+            background-color: #fffae5;
+            padding: 5px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .highlight:hover {
+            background-color: #ffe066;
+        }
+        button {
+            background: #005f73;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background: #0a9396;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>El Doble Sentido en la Etapa Temprana de Relación entre Pares</h1>
+
+    <p>
+        En las primeras etapas de una relación entre pares, el <span class="highlight">doble sentido</span> puede funcionar como una herramienta de interacción social que, si bien puede generar cercanía y complicidad, también plantea riesgos de interpretación.
+    </p>
+
+    <p>
+        Esta forma de comunicación, que combina humor y ambigüedad, permite explorar los límites del lenguaje y establecer un código compartido. Sin embargo, en contextos incipientes, el grado de confianza todavía es limitado, lo que puede provocar malentendidos si no se percibe la intención real detrás de las palabras.
+    </p>
+
+    <p>
+        La habilidad para utilizar el doble sentido de manera efectiva depende de factores como la empatía, la observación del lenguaje corporal y el entendimiento de las referencias culturales compartidas. Un uso acertado puede fortalecer vínculos, mientras que un uso inadecuado puede generar distancias.
+    </p>
+
+    <button onclick="mostrarConsejo()">Mostrar consejo rápido</button>
+
+    <p id="consejo" style="display:none; font-weight: bold; color: #0a9396;">
+        Recuerda: antes de usar el doble sentido, asegúrate de que la otra persona comparta tu sentido del humor.
+    </p>
+
+    <script>
+        function mostrarConsejo() {
+            const consejo = document.getElementById('consejo');
+            consejo.style.display = consejo.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
+
+</body>
+</html>
